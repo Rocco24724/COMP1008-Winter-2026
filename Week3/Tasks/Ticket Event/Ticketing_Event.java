@@ -7,7 +7,7 @@ public class Ticketing_Event {
 
     //Just setting a default constructor
     public Ticketing_Event() {
-        this.eventName = "";
+        this.eventName = "Default Event";
         this.ticketCost = 0.0;
         this.numberOfAttendees = 0;
         this.hostCost = 0.0;
@@ -35,7 +35,6 @@ public class Ticketing_Event {
         if (numberOfTickets <= 0 || numberOfTickets > this.numberOfAttendees) return;
         this.numberOfAttendees -= numberOfTickets;
         this.totalRevenue -= numberOfTickets * this.ticketCost;
-        if (this.totalRevenue < 0) this.totalRevenue = 0.0;
     }
 
     //Getters/Setters
