@@ -8,7 +8,7 @@ public class Main {
         world.addContinent("North America", 579000000);
         world.addContinent("South America", 422500000);
         world.addContinent("Europe", 741400000);
-        world.addContinent("Asia", 4641000000);
+        world.addContinent("Asia", 1640000000);
         world.addContinent("Africa", 1340000000);
         world.addContinent("Australia", 25687041);
         System.out.println("Added " + world.getIndexTracker() + " continents");
