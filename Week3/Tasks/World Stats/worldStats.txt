@@ -1,0 +1,11 @@
+Task 2)
+Create a class named WorldStats
+    attritubtes
+        Continents: array of Strings
+        populationPerContinent: array of ints
+        numberOfContinents
+        indexTracker
+    actions
+        1-arg constructor: num continents
+        addContinent(String name, int population)
+        getContinentByName(String name) => population of continent
