@@ -1,0 +1,8 @@
+enum:
+    enumerable
+        array of constant values
+        drop-down list of values
+
+Factory Methods
+    a category of that class
+    create a new
