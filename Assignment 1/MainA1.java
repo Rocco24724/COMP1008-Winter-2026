@@ -1,7 +1,7 @@
 //Rocco Minetola
 //2026-01-29
 
-public class Main {
+public class MainA1 {
     public static void main(String[] args) {
         //This is making a object by providing it with 7 tempertures and the city (in my example I used Toronto)
         double[] temperatures = {22.5, 23.0, 21.5, 24.0, 25.5, 22.0, 23.5};
