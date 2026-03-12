@@ -1,0 +1,11 @@
+Fighting Game
+    Class
+    Allow 2 fighters to fight
+        A fighter has name, heatlh, and power
+        A fighter attacks and gets attacked
+    
+    Boss vs Player
+        Boss is harder to take down
+            Boss has 1.5x the health of opponent
+            Boss has super attack he can use once that does 3x damage
+        Player has the ability to block and attack once
