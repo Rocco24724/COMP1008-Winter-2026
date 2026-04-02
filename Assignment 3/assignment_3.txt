@@ -1,0 +1,38 @@
+Merge Two Files into a Third File
+
+
+
+Write a Java program that merges the contents of two separate text files into one single output file.
+
+
+
+Your program must:
+
+
+
+Ask the user for the name of the first file to read.
+Ask the user for the name of the second file to read.
+Ask the user for the name of the output file where the merged text will be saved.
+Read all lines from the first file and write them into the output file.
+
+
+Immediately after finishing file #1, append all lines from the second file into the output file.
+
+
+
+After the merge is complete, display a message telling the user:
+
+
+
+The merge succeeded.
+The total number of lines written to the output file.
+The name of the output file.
+
+
+Important rules:
+
+
+
+If either input file does not exist, display a helpful error.
+Do not delete or modify the original files — only create the new one.
+Preserve the exact original formatting of both files.
